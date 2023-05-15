@@ -1,0 +1,18 @@
+<li>Babyspinachomelet</li>
+<a href="./recipes/babyspinachomelet.html"><img src="./images/babyspinachomelet.jpg" alt="babyspinachomelet" width="400"></a></li>
+
+<li>Hainanese Chicken Rice Burrito</li>
+<a href="./recipes/hainanese_chicken_rice_burrito.html"><img src="./images/hainanese_chicken_rice_burrito.jpeg" alt="hainanese_chicken_rice_burrito" width="400"></a></li>
+
+<li>Laksa Lasagna</li>
+<a href="./recipes/laksa_lasagna.html"><img src="./images/laksa_lasagna.jpeg" alt="laksa_lasagna" width="400"></a></li>
+
+<li>Nasi Lemak Burger</li>
+<a href="./recipes/nasi_lemak_burger.html"><img src="./images/nasi_lemak_burger.jpeg" alt="nasi_lemak_burger" width="400"></a></li>
+
+<li>Rendang Shepherd's Pie</li>
+<a href="./recipes/rendang_shepherd's_pie.html"><img src="./images/rendang_shepherd's_pie.jpeg" alt="rendang_shepherd's_pie" width="400"></a></li>
+
+<li>Roti Canai Benedict</li>
+<a href="./recipes/roti_canai_benedict.html"><img src="./images/roti_canai_benedict.jpeg" alt="roti_canai_benedict" width="400"></a></li>
+
