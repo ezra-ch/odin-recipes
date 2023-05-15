@@ -8,7 +8,7 @@ folder_path="../images"
 file_names=($(find "$folder_path" -type f \( -iname "*.jpeg" -o -iname "*.jpg" \) -exec basename {} \;))
 
 # Specify the output file
-output_file="output.txt"
+output_file="listbuilder2.0_output.txt"
 
 # Function to capitalize the first letter of a string and all letters after a space
 #In this implementation, the sed command uses the -E flag for extended regular expressions.
