@@ -8,11 +8,14 @@ html_folder="../recipes"
 
 # Iterate through each JPEG file in the folder
 for file_path in "$jpeg_folder"/*.jpeg; do
-    # Extract the file name without the extension
-    file_name=$(basename "$file_path" .jpeg)
+    # Extract the file name with the extension
+    file_name=$(basename "$file_path")
+
+    # Remove the extension from the file name to use as the HTML file name
+    html_file_name="${file_name%.*}"
 
     # Construct the path to the HTML file
-    html_file="$html_folder/${file_name}.html"
+    html_file="$html_folder/${html_file_name}.html"
 
     # Check if the HTML file already exists
     if [ -f "$html_file" ]; then
@@ -21,14 +24,14 @@ for file_path in "$jpeg_folder"/*.jpeg; do
         # Create the HTML file and populate it with boilerplate HTML code
         cat <<EOT >> "$html_file"
 <!DOCTYPE html>
-<html lang= en>
-    <head>
-        <meta charset = "utf-8">
-        <title>$file_name recipe</title>
-    </head>
-    <body>
-        <h1>$file_name recipe</h1>
-        <img src = "../images/$file_name.jpg" width = "1000">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>${html_file_name} recipe</title>
+</head>
+<body>
+    <h1>${html_file_name} recipe</h1>
+    <img src="../images/${file_name}" width="1000">
         <h2>Ingredients</h2>
         <ul>
             <li>2 egg</li>
