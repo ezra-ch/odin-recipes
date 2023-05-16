@@ -3,6 +3,11 @@
     <head>
         <meta charset = "utf-8">
         <title>Why is the title showing</title>
+        <link rel = "stylesheet" href = "styles.css">
+        <style>
+            p{
+            }
+        </style>
     </head>
     <body>
         <h1>RECIPES</h1>
@@ -27,4 +32,56 @@
 
         </ul>
     </body>
+<footer>
+    <br>
+    <h2 style="text-align: center;">CSS tests</h2>
+    <div>external method type specification</div>
+    <p>internal method</p>
+    inline method:
+    <a href="../index.html" style="
+        padding: 10px 20px;
+        background-color: #0b7af0;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    ">Back to homepage</a>
+    <br>
+    <br>
+    <!--just some css tests-->
+    <h1>SECTION 2 class id selectors</h1>
+    <div class="odd">Number 1 - I'm a class! </div>
+    <p id="two">Number 2- I'm one ID</p>
+    <div class="odd three">Number 3 - I'm a class, but cooler!</div><br>
+    <div id="four">Number 4 - I'm another ID.</div><br>
+    <div class="odd">Number 5 - I'm a class!</div><br>
+    <h1>SECTION 3 grouping selectors</h1>
+    <button class = "s3black">Click Me!</button> <button class=" s3yellow">No, Click Me!</button><br><br>
+    <h1>SECTION 4 chaining selectors</h1>
+    <div>
+        <img class="avatar distorted" src="./images/babyspinachomelet.jpg" alt="lol"> 
+        <img class="avatar distorted" src="./images/laksa_lasagna.jpeg" alt="lol"> 
+    </div>
+    <img class="avatar proportioned" src="./images/babyspinachomelet.jpg" alt="lol"> 
+    <img class="avatar proportioned" src="./images/laksa_lasagna.jpeg" alt="lol"> <br>
+    <h1>SECTION 5 descendant combinator</h1>
+    <div class="container"><p class="text">This should be styled</p></div>
+    <p class="text">This should be styled</p>
+    <p class="text">This should be styled</p>
+    <div class="container">
+        <p class="text">This should be styled</p>
+        <p class="text">This should be styled</p>
+    </div>
+    <br>
+    <h1>SECTION 6 cascade fix</h1>
+    <p class="para">I'm just a paragraph with extra bold text!</p>
+    <p class="para small-para">I'm a smaller paragraph, also with extra bold text!</p>
+
+    <button id="confirm button" class="button confirm">Confirm</button>
+    <button id="cancel button" class="button cancel">Cancel</button>
+
+    <div class="text">I'm a div with thin text!</div>
+    <div class="text">I'm a div with thin text and a child div!
+      <div class="text child">I'm a smaller child div with extra bold text.</div>
+    </div>
+</footer>
 </html>

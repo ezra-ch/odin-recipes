@@ -1,0 +1,99 @@
+div{
+}
+/*All odd numbered elements: a light red/pink background, and a list of fonts containing Verdana 
+and DejaVu Sans with sans-serif as a fallback
+The second element: blue text and a font size of 36px
+The third element: in addition to the styles for all odd numbered elements, add a font size of 24px
+The fourth element: a light green background, a font size of 24px, and bold*/
+
+
+.odd{
+    font-family: Verdana, "DejaVu Sans", "sans-serif";
+    background-color: lightpink;
+}
+#two{
+    color:blue;
+    font-size: 36px;
+}
+.three{
+    font-size:24px;
+}
+#four{
+    background: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.s3black,
+.s3yellow{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", "sans-serif";
+}
+
+.s3black{
+    background-color: black;
+    color:white;
+}
+
+.s3yellow{
+    background-color: yellow;
+    color: black;
+}
+
+.avatar.proportioned{
+    height: auto;
+    width: 300px;
+}
+.avatar.distorted{
+    height: 400px;
+    width: 200px;
+}
+
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+  .para,
+  .small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+  }
+  
+  .para {
+    font-size: 22px;
+  }
+  .small-para {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  
+  .button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  .confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+  } 
+  
+  
+  
+  div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+  }
+  div .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
